@@ -12,7 +12,7 @@ let teller = 0
 teller = 0
 basic.forever(function () {
     if (teller == 10) {
-        music.playMelody("G B A G - - - - ", 120)
+        music.playMelody("G - - - - - - - ", 250)
         basic.showIcon(IconNames.Heart)
         teller = 0
     }
